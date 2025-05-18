@@ -1,0 +1,65 @@
+body{
+    background:ghostwhite;
+}
+
+.homepage{
+    /* display: grid; */
+    place-items: center;
+    margin:10vw;
+      font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+button:hover{
+    background-color: rgb(255, 140, 0);
+    color:white;
+
+}
+button{
+    border-radius: 20px;;
+    border:1px solid #131313;
+}
+#editStatus{
+    background:rgb(234, 234, 73);
+    /* color:ghostwhite; */
+}
+
+#deleteMovie{
+    background: black;
+    color:white
+}
+#deleteMovie:hover{
+    background: tomato;
+    color:black
+}
+.container.mt-4.flex-body{
+    /* display: grid;
+    grid-template-rows: repeat(auto-fit, min(2000px, 1fr));
+    gap:1rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    /* background-color: aqua; */
+}
+.card{
+    background: rgb(169, 242, 209);
+    flex: 1 1 350px; /*  Stretching: */
+    flex: 0 1 350px; /*  No stretching: */
+    margin: 5px;
+    
+}
+.set-card-width{
+    width:auto;
+}
+.clearbtn{
+    background:#fff;
+    color:black;
+    margin: 1vw;;
+    border:1px solid black;
+}
+.clearbtn:hover{
+    background:red;
+    color:black;
+    
+}
