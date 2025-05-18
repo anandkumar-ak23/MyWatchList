@@ -28,5 +28,4 @@ No setup needed — simply open the live link:
 
 
 ```bash
-git clone https://github.com/yourusername/mywatchlist-curoperation.git
-cd mywatchlist-curoperation
+git clone https://github.com/anandkumar-ak23/MyWatchList.git
